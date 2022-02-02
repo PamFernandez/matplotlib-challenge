@@ -1,19 +1,8 @@
 # matplotlib-challenge
 
-# Pymaceuticals, Inc
+## Three observations about this data:
+1) Final tumor volume was lowest with the drugs Capomulin and Ramiane - these two drugs should be investigated further. The drugs Infubinol and Ceftamin should not be investigated further as they did nothing to shrink tumor growth.
 
-## Animal Study for Potential Treatment for SCC  Drug of Interest: Capomulin
+2) The correlation between mouse weight and average tumor volume is .84. This is a fairly strong positive relation and indicates that a healthy diet and exercise may prevent tumors from growing.
 
-### Introduction  
-The study began with 249 mice, but the data for one of the mice (g989) was not carefully recorded and all the information for this mouse was scrubbed from the data. The following information is all based on the data from the remaining 248 mice.
-
-### Data From this Study  
-The summary statistics table for each drug regimen:  
-
-The total number of timepoints for all mice tested for each drug regimen:  
-
-The distribution of female and male mice in the study:  
-![gender_pie](http://localhost:8888/e7117373-5deb-482e-9897-e2cddb2a2e10)
-
-The final tumor volume of each mouse across each of the four treatment regimens: Capomulin, Ramicane, Infubinol, and Ceftamin.  
-Note - there appears to be one outlier add more information here.
+3) Mouse m601 had a particularly good treatment outcome with the drug Capomulin. His tumor volume shrank from 45.0 mm3 to 28.4 mm3.
